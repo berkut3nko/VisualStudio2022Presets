@@ -1,0 +1,54 @@
+# Всі файли та папки, які створюються під час побудови проєкту
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Конфігураційні файли Visual Studio
+.vscode/
+*.VC.db
+*.VC.opendb
+
+# Папки з компонентами пакетного менеджера NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Файли тимчасового збереження
+*.tmp
+*.temp
+
+# Файли кешу
+ipch/
+*.obj
+*.pch
+
+# Налаштування підключень
+*.sdf
+*.sqlite
+*.db
+
+# Log-файли
+*.log
+
+# Підтримка продуктивності
+.vscode/
+.vs/
+.idea/
+
+# Node.js та інші веб-ресурси
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Інші файли
+_ReSharper*/
+*.DotSettings.user
+*.ReSharper
+TestResults/
